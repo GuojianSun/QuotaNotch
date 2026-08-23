@@ -1,0 +1,14 @@
+.DS_Store
+
+# Release binaries belong in GitHub Release assets, never in the repository.
+*.app
+*.dmg
+*.zip
+*.dSYM
+
+# Never stage signing or update secrets.
+*.p12
+*.cer
+*.key
+*.pem
+auth.json

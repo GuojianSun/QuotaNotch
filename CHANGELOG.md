@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.0 Preview — Coming soon
+## 1.0.0 — 2026-08-24
 
 The first public QuotaNotch release includes:
 

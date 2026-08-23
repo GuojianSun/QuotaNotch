@@ -1,6 +1,6 @@
 # Privacy
 
-Last updated: 2026-08-23
+Last updated: 2026-08-24
 
 QuotaNotch does not collect analytics, advertising identifiers, crash reports,
 or user content.
@@ -29,11 +29,10 @@ cleared from Settings at any time.
 
 ## Updates
 
-Public builds with updates enabled use Sparkle to check an HTTPS update feed and
-download updates according to the user's preferences. Sparkle system profiling
-is disabled. QuotaNotch does not attach an account identifier, Codex token,
-usage payload, or analytics identifier to update requests. No production update
-feed or public update artifact exists yet.
+Public builds use Sparkle to check an HTTPS update feed and download updates
+according to the user's preferences. Sparkle system profiling is disabled.
+QuotaNotch does not attach an account identifier, Codex token, usage payload,
+or analytics identifier to update requests.
 
 ## Local files
 

@@ -12,22 +12,20 @@ private paths, or exploit details.
 
 ## Release integrity
 
-When published, official preview releases will be distributed only from this
-repository and accompanied by a SHA-256 checksum. The checksum helps detect a
-mismatched or corrupted download, but it does not independently prove the
-identity of the publisher when it is obtained from the same release page.
+Official releases are distributed only from this repository and accompanied by
+a SHA-256 checksum. The checksum helps detect a mismatched or corrupted
+download, but it does not independently prove the publisher's identity when it
+is obtained from the same release page.
 
-The first planned preview build will not be signed with an Apple Developer ID
-and will not be notarized by Apple. macOS may therefore require explicit
-approval on first launch. Do not disable Gatekeeper or remove quarantine
-attributes globally. Developer ID signing and Apple notarization are planned
-for a future release; this policy and the release notes will state when that
-changes.
+QuotaNotch 1.0.0 is ad-hoc signed and is not notarized by Apple. macOS may
+therefore require explicit approval on first launch. Do not disable Gatekeeper
+or remove quarantine attributes globally; use the per-app **Open Anyway**
+control in Privacy & Security after verifying the official download.
 
 QuotaNotch's update design requires HTTPS and Sparkle EdDSA signatures. Before
 an update is published, the production appcast and its referenced artifact must
-describe the exact same release bytes. No production appcast or public update
-artifact exists yet.
+describe the exact same release bytes. Release assets are immutable; a fix is
+published under a higher build number instead of replacing an existing file.
 
 QuotaNotch is not sandboxed because it launches a locally installed Codex
 executable and, when explicitly enabled, reads local Codex task metadata.

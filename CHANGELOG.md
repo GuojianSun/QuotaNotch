@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.0 — Coming soon
+## 1.0.0 Preview — Coming soon
 
 The first public QuotaNotch release includes:
 
@@ -11,4 +11,4 @@ The first public QuotaNotch release includes:
 - Simplified Chinese, Traditional Chinese, and English interfaces;
 - a movable panel that can return to the physical MacBook notch;
 - privacy-preserving local caching and opt-in collaboration history; and
-- signed Sparkle updates with separate stable and beta channels.
+- HTTPS and Sparkle EdDSA-protected updates with separate stable and beta channels.

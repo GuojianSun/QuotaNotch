@@ -29,10 +29,11 @@ cleared from Settings at any time.
 
 ## Updates
 
-Release builds use Sparkle to check an HTTPS update feed and download updates
-according to the user's preferences. Sparkle system profiling is disabled.
-QuotaNotch does not attach an account identifier, Codex token, usage payload, or
-analytics identifier to update requests.
+Public builds with updates enabled use Sparkle to check an HTTPS update feed and
+download updates according to the user's preferences. Sparkle system profiling
+is disabled. QuotaNotch does not attach an account identifier, Codex token,
+usage payload, or analytics identifier to update requests. No production update
+feed or public update artifact exists yet.
 
 ## Local files
 

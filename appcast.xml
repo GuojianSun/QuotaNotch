@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>QuotaNotch</title>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Mon, 24 Aug 2026 00:45:59 +0800</pubDate>
+            <link>https://github.com/GuojianSun/QuotaNotch</link>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# QuotaNotch 1.0.0
+
+The first public QuotaNotch release includes:
+
+- notch-hover and menu-bar access to Codex weekly usage;
+- exact reset time, remaining quota, refresh status, and reset-credit alerts;
+- optional Token activity, local collaboration, and usage-milestone modules;
+- configurable module order, panel width, and light or dark appearance;
+- English, Simplified Chinese, and Traditional Chinese interfaces;
+- a movable panel with stable expansion and notch-return behavior; and
+- HTTPS and Sparkle EdDSA-protected in-app updates.
+
+## Installation note
+
+If macOS blocks the first launch, open **System Settings → Privacy & Security**
+and choose **Open Anyway** for QuotaNotch.
+
+Official binaries are governed by the [QuotaNotch Binary License](https://github.com/GuojianSun/QuotaNotch/blob/main/BINARY-LICENSE.md).
+]]></description>
+            <enclosure url="https://github.com/GuojianSun/QuotaNotch/releases/download/v1.0.0/QuotaNotch-1.0.0-macOS-arm64.dmg" length="1751380" type="application/octet-stream" sparkle:edSignature="ZahRij38rgUNopQkzvDXPaTMua3pee5hEFA6W47lS0eoKQV6Ryuvl3T0h3End608uQ6pw2YJML0vao6qTcJEBg=="/>
+        </item>
+    </channel>
+</rss>

@@ -1,8 +1,8 @@
 # Changelog
 
-## 1.1.1 Beta (15) — 2026-11-05
+## 1.1.1 (15) — 2026-11-05
 
-[Beta release details](https://github.com/GuojianSun/QuotaNotch/releases/tag/v1.1.1)
+[Release details](https://github.com/GuojianSun/QuotaNotch/releases/tag/v1.1.1)
 
 - Restores verified Codex discovery after recent ChatGPT bundle-layout changes, fixing stale cached plan and quota displays.
 - Supports server-reported Pro and ProLite plans in quota-module settings and automatic display selection.

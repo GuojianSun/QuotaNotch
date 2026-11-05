@@ -21,16 +21,16 @@
 
 QuotaNotch 可从 MacBook 的物理刘海位置展开，让当前 Codex 每周额度始终靠近你的工作流。没有刘海或使用外接显示器时，也可以通过菜单栏打开。
 
-## Beta 1.1.1 (15)
+## 1.1.1 (15)
 
-[Beta 版本详情](https://github.com/GuojianSun/QuotaNotch/releases/tag/v1.1.1)
+[版本详情](https://github.com/GuojianSun/QuotaNotch/releases/tag/v1.1.1)
 
 - 修复新版 ChatGPT 更改内置 Codex 路径后无法刷新用量的问题。
 - 支持服务端返回的 Pro、ProLite 方案，恢复当前每周额度和 Token 活动。
 - Plus 与 Pro 系列账户可独立开关并调整 5 小时与每周额度模块的顺序，至少保留一个模块开启；仅展示 Codex 实际提供的额度窗口。
 - 自动切换额度显示默认开启：优先显示 5 小时用量，剩余额度恰好为 0% 时切换为每周用量，并同时显示两种额度的重置时间。
 
-Stable 1.0.0 (13) 仍为最新稳定版。下方正文与截图对应 Stable 1.0.0。
+1.1.1 (15) 为最新稳定版。截图展示核心界面；可用额度模块取决于账户方案和 Codex 实际提供的数据。
 
 ## 界面
 

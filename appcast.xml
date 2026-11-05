@@ -1,7 +1,52 @@
-<?xml version="1.0" standalone="yes"?>
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+<?xml version="1.0" standalone="yes"?><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>QuotaNotch</title>
+        <item>
+            <title>1.1.1</title>
+            <pubDate>Thu, 05 Nov 2026 18:11:52 +0800</pubDate>
+            <link>https://github.com/GuojianSun/QuotaNotch</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# QuotaNotch 1.1.1
+
+## Fixes
+
+- Restore the Codex connection after recent ChatGPT updates moved the bundled
+  executable. The application automatically finds the current signed Codex
+  binary and retains compatibility with earlier installations.
+- Support Pro-family plan identifiers, including `pro` and `prolite`, in quota
+  settings and automatic quota selection. The plan badge continues to show the
+  value returned by Codex.
+- Replace stale cached plan and quota information when the live connection is
+  restored. Monthly or unrelated quota windows no longer stand in for weekly
+  usage.
+
+## Quota controls
+
+- Configure and reorder five-hour and weekly quota modules for supported plans.
+- Automatically show an available five-hour window, then weekly usage when that
+  five-hour window is exhausted. If Codex supplies only weekly data, that weekly
+  quota is shown instead.
+- Keep at least one quota module enabled. Missing upstream data stays unknown.
+- Continue to show Token activity, optional local collaboration history, and
+  usage milestones in English, Simplified Chinese, and Traditional Chinese.
+
+## Updating
+
+Installed QuotaNotch 1.0.0 users can update directly through **Check for Updates**
+after this candidate is promoted to Stable. The application identifier, update
+feed, and update-signing public key remain unchanged.
+
+If macOS blocks a first installation, open **System Settings → Privacy &
+Security** and choose **Open Anyway** for QuotaNotch.
+
+Official binaries are governed by the [QuotaNotch Binary License](https://github.com/GuojianSun/QuotaNotch/blob/main/BINARY-LICENSE.md).
+]]></description>
+            <enclosure url="https://github.com/GuojianSun/QuotaNotch/releases/download/v1.1.1/QuotaNotch-1.1.1-macOS-arm64.dmg" length="1762460" type="application/octet-stream" sparkle:edSignature="9aSnwniNNtl7rRCdlsv5LIgrfVwq9BrFaIwC/qTDcHSfN792FLyv3Mc4OT/fZM4j5CrlUjwK+hQcV80EOGnBAw=="/>
+        </item>
         <item>
             <title>1.0.0</title>
             <pubDate>Mon, 24 Aug 2026 00:45:59 +0800</pubDate>

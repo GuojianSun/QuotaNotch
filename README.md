@@ -21,6 +21,17 @@
 
 QuotaNotch opens from the physical MacBook notch and keeps the current Codex weekly limit close to your workflow. A menu-bar entry provides the same access on Macs without a notch and when using an external display.
 
+## Beta 1.1.1 (15)
+
+[Beta release details](https://github.com/GuojianSun/QuotaNotch/releases/tag/v1.1.1)
+
+- Restores the Codex connection after recent ChatGPT updates moved its bundled executable.
+- Supports server-reported Pro and ProLite plans, including current weekly usage and Token activity.
+- Plus and Pro-family accounts can independently enable and reorder 5-hour and weekly quota modules, with at least one kept enabled. Only windows actually supplied by Codex are shown.
+- Automatic quota display switching is enabled by default: it prioritizes 5-hour usage and switches to weekly usage at exactly 0% remaining, showing both reset times.
+
+Stable 1.0.0 (13) remains the latest stable release. The documentation and screenshots below describe Stable 1.0.0.
+
 ## Interface
 
 ### Expanded activity view
